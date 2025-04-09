@@ -58,7 +58,7 @@ background-color: rgba(0, 0, 255, 0.482);
 
 @keyframes animateTitle{
     from {
-        color:black;
+        color:grey;
         transform: scale(1);
     }
     50% {
