@@ -13,7 +13,6 @@ h1{
     margin: auto;
     display: flex;
     align-items: center;
-    flex-direction: column;
 }
 
 .card{
@@ -58,7 +57,7 @@ background-color: rgba(0, 0, 255, 0.482);
 
 @keyframes animateTitle{
     from {
-        color:grey;
+        color:grey ;
         transform: scale(1);
     }
     50% {
@@ -68,5 +67,12 @@ background-color: rgba(0, 0, 255, 0.482);
     to {
         color:rgba(0, 0, 255, 0.482);
         transform: scale(1);
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 }
